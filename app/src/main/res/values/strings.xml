@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">ManejoServicios</string>
+    <string name="btnTrain">Train Sound</string>
+    <string name="btnMusic">Music Sound</string>
+    <string name="btnStop"> Stop Sound</string>
+</resources>
