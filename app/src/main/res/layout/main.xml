@@ -36,6 +36,66 @@
 			android:layout_height="wrap_content"
 			android:text="@string/btnStop"
 			android:id="@+id/btnFin">
-		</Button>		
+		</Button>
+	</LinearLayout>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/broadcast"
+		android:gravity="center"
+		android:textSize="20sp"
+		android:padding="20dp"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center">
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/btnTrainB"
+			android:text="@string/btnTrain"/>
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/btnMusicB"
+			android:text="@string/btnMusic"/>
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center">
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/btnStop"
+			android:id="@+id/btnFinB">
+		</Button>
+	</LinearLayout>
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/bib"
+		android:gravity="center"
+		android:textSize="20sp"
+		android:padding="20dp"/>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center">
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/btnUri"
+			android:text="@string/btnUri"/>
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/btnBiblioteca"
+			android:text="@string/btnBiblioteca"/>
 	</LinearLayout>
 </LinearLayout>

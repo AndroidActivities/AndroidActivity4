@@ -5,4 +5,8 @@
     <string name="btnTrain">Train Sound</string>
     <string name="btnMusic">Music Sound</string>
     <string name="btnStop"> Stop Sound</string>
+    <string name="broadcast"> Utilización de Broadcast </string>
+    <string name="bib" >Biblioteca Musical</string>
+    <string name="btnUri" >Abrir Uri</string>
+    <string name="btnBiblioteca" >Abrir Biblioteca</string>
 </resources>

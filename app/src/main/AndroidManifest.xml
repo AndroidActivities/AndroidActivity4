@@ -14,5 +14,13 @@
             </intent-filter>
         </activity>
 		<service android:enabled="true" android:name=".ElServicio" />
+        <receiver android:name=".ElBroadcast">
+        </receiver>
+        <receiver android:name=".ElReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_LOW" />
+                <action android:name="android.intent.action.AIRPLANE_MODE" />
+            </intent-filter>
+        </receiver>
     </application>
 </manifest>
